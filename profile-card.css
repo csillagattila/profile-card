@@ -1,0 +1,84 @@
+* {
+  margin: 0; padding: 0; box-sizing: border-box; font-size: 100%;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Oxanium';
+  background: url(contents/Background-image.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  text-align: center;
+  border: 1px solid grey;
+  background-color: rgba(61, 61, 61, 0.3);
+  color: white;
+  border-radius: 50px;
+}
+
+.name-headline {
+  letter-spacing: 3px;
+}
+
+.from-hungary {
+  font-size: 11px;
+}
+
+.job {
+  color: black;
+}
+
+span, p {
+  font-size: 15px;
+}
+
+.my-name {
+  margin: 10px auto;
+}
+
+.about {
+  padding: 20px;
+  background-color: rgba(20, 20, 20, 0.3);
+  border-radius: 10px;
+}
+
+.head {
+  margin: 10px auto;
+}
+
+.content, .links {
+  margin: 10px auto;
+  width: 80%;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width:150px;
+  height:auto;
+  border-radius: 50px;
+  margin-top: -80px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  filter: grayscale(10%);
+}
